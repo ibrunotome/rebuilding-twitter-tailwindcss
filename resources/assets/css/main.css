@@ -59,6 +59,11 @@ a {
     @apply .text-teal .border-teal;
 }
 
+.hero {
+    background: url('/img/twitter/tailwind_bg.jpg');
+    background-size: cover;
+}
+
 /**
  * Here you would add any custom utilities you need that don't come out of the
  * box with Tailwind.

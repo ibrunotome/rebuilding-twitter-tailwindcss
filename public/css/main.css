@@ -2694,6 +2694,10 @@ button,
   height: 16rem;
 }
 
+.h-112 {
+    height: 28rem;
+}
+
 .h-auto {
   height: auto;
 }
@@ -2752,6 +2756,10 @@ button,
 
 .m-8 {
   margin: 2rem;
+}
+
+.m-24 {
+    margin: 6rem;
 }
 
 .m-auto {
@@ -2830,6 +2838,16 @@ button,
 .mx-8 {
   margin-left: 2rem;
   margin-right: 2rem;
+}
+
+.my-24 {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.mx-24 {
+    margin-left: 6rem;
+    margin-right: 6rem;
 }
 
 .my-auto {
@@ -2964,6 +2982,22 @@ button,
   margin-left: 2rem;
 }
 
+.mt-24 {
+    margin-top: 6rem;
+}
+
+.mr-24 {
+    margin-right: 6rem;
+}
+
+.mb-24 {
+    margin-bottom: 6rem;
+}
+
+.ml-24 {
+    margin-left: 6rem;
+}
+
 .mt-auto {
   margin-top: auto;
 }
@@ -3092,6 +3126,10 @@ button,
   margin: -2rem;
 }
 
+.-m-24 {
+    margin: -6rem;
+}
+
 .-m-px {
   margin: -1px;
 }
@@ -3164,6 +3202,16 @@ button,
 .-mx-8 {
   margin-left: -2rem;
   margin-right: -2rem;
+}
+
+.-my-24 {
+    margin-top: -6rem;
+    margin-bottom: -6rem;
+}
+
+.-mx-24 {
+    margin-left: -6rem;
+    margin-right: -6rem;
 }
 
 .-my-px {
@@ -3286,6 +3334,22 @@ button,
 
 .-ml-8 {
   margin-left: -2rem;
+}
+
+.-mt-24 {
+    margin-top: -6rem;
+}
+
+.-mr-24 {
+    margin-right: -6rem;
+}
+
+.-mb-24 {
+    margin-bottom: -6rem;
+}
+
+.-ml-24 {
+    margin-left: -6rem;
 }
 
 .-mt-px {
@@ -4701,6 +4765,11 @@ a {
 .top-nav-item:hover {
   color: #4dc0b5;
   border-color: #4dc0b5;
+}
+
+.hero {
+    background: url('/img/twitter/tailwind_bg.jpg');
+    background-size: cover;
 }
 
 /**
@@ -6706,6 +6775,10 @@ a {
     height: 16rem;
   }
 
+    .sm\:h-112 {
+        height: 28rem;
+    }
+
   .sm\:h-auto {
     height: auto;
   }
@@ -6765,6 +6838,10 @@ a {
   .sm\:m-8 {
     margin: 2rem;
   }
+
+    .sm\:m-24 {
+        margin: 6rem;
+    }
 
   .sm\:m-auto {
     margin: auto;
@@ -6843,6 +6920,16 @@ a {
     margin-left: 2rem;
     margin-right: 2rem;
   }
+
+    .sm\:my-24 {
+        margin-top: 6rem;
+        margin-bottom: 6rem;
+    }
+
+    .sm\:mx-24 {
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
 
   .sm\:my-auto {
     margin-top: auto;
@@ -6976,6 +7063,22 @@ a {
     margin-left: 2rem;
   }
 
+    .sm\:mt-24 {
+        margin-top: 6rem;
+    }
+
+    .sm\:mr-24 {
+        margin-right: 6rem;
+    }
+
+    .sm\:mb-24 {
+        margin-bottom: 6rem;
+    }
+
+    .sm\:ml-24 {
+        margin-left: 6rem;
+    }
+
   .sm\:mt-auto {
     margin-top: auto;
   }
@@ -7104,6 +7207,10 @@ a {
     margin: -2rem;
   }
 
+    .sm\:-m-24 {
+        margin: -6rem;
+    }
+
   .sm\:-m-px {
     margin: -1px;
   }
@@ -7177,6 +7284,16 @@ a {
     margin-left: -2rem;
     margin-right: -2rem;
   }
+
+    .sm\:-my-24 {
+        margin-top: -6rem;
+        margin-bottom: -6rem;
+    }
+
+    .sm\:-mx-24 {
+        margin-left: -6rem;
+        margin-right: -6rem;
+    }
 
   .sm\:-my-px {
     margin-top: -1px;
@@ -7299,6 +7416,22 @@ a {
   .sm\:-ml-8 {
     margin-left: -2rem;
   }
+
+    .sm\:-mt-24 {
+        margin-top: -6rem;
+    }
+
+    .sm\:-mr-24 {
+        margin-right: -6rem;
+    }
+
+    .sm\:-mb-24 {
+        margin-bottom: -6rem;
+    }
+
+    .sm\:-ml-24 {
+        margin-left: -6rem;
+    }
 
   .sm\:-mt-px {
     margin-top: -1px;
@@ -10675,6 +10808,10 @@ a {
     height: 16rem;
   }
 
+    .md\:h-112 {
+        height: 28rem;
+    }
+
   .md\:h-auto {
     height: auto;
   }
@@ -10734,6 +10871,10 @@ a {
   .md\:m-8 {
     margin: 2rem;
   }
+
+    .md\:m-24 {
+        margin: 6rem;
+    }
 
   .md\:m-auto {
     margin: auto;
@@ -10812,6 +10953,16 @@ a {
     margin-left: 2rem;
     margin-right: 2rem;
   }
+
+    .md\:my-24 {
+        margin-top: 6rem;
+        margin-bottom: 6rem;
+    }
+
+    .md\:mx-24 {
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
 
   .md\:my-auto {
     margin-top: auto;
@@ -10945,6 +11096,22 @@ a {
     margin-left: 2rem;
   }
 
+    .md\:mt-24 {
+        margin-top: 6rem;
+    }
+
+    .md\:mr-24 {
+        margin-right: 6rem;
+    }
+
+    .md\:mb-24 {
+        margin-bottom: 6rem;
+    }
+
+    .md\:ml-24 {
+        margin-left: 6rem;
+    }
+
   .md\:mt-auto {
     margin-top: auto;
   }
@@ -11073,6 +11240,10 @@ a {
     margin: -2rem;
   }
 
+    .md\:-m-24 {
+        margin: -6rem;
+    }
+
   .md\:-m-px {
     margin: -1px;
   }
@@ -11146,6 +11317,16 @@ a {
     margin-left: -2rem;
     margin-right: -2rem;
   }
+
+    .md\:-my-24 {
+        margin-top: -6rem;
+        margin-bottom: -6rem;
+    }
+
+    .md\:-mx-24 {
+        margin-left: -6rem;
+        margin-right: -6rem;
+    }
 
   .md\:-my-px {
     margin-top: -1px;
@@ -11268,6 +11449,22 @@ a {
   .md\:-ml-8 {
     margin-left: -2rem;
   }
+
+    .md\:-mt-24 {
+        margin-top: -6rem;
+    }
+
+    .md\:-mr-24 {
+        margin-right: -6rem;
+    }
+
+    .md\:-mb-24 {
+        margin-bottom: -6rem;
+    }
+
+    .md\:-ml-24 {
+        margin-left: -6rem;
+    }
 
   .md\:-mt-px {
     margin-top: -1px;
@@ -14644,6 +14841,10 @@ a {
     height: 16rem;
   }
 
+    .lg\:h-112 {
+        height: 28rem;
+    }
+
   .lg\:h-auto {
     height: auto;
   }
@@ -14703,6 +14904,10 @@ a {
   .lg\:m-8 {
     margin: 2rem;
   }
+
+    .lg\:m-24 {
+        margin: 6rem;
+    }
 
   .lg\:m-auto {
     margin: auto;
@@ -14781,6 +14986,16 @@ a {
     margin-left: 2rem;
     margin-right: 2rem;
   }
+
+    .lg\:my-24 {
+        margin-top: 6rem;
+        margin-bottom: 6rem;
+    }
+
+    .lg\:mx-24 {
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
 
   .lg\:my-auto {
     margin-top: auto;
@@ -14914,6 +15129,22 @@ a {
     margin-left: 2rem;
   }
 
+    .lg\:mt-24 {
+        margin-top: 6rem;
+    }
+
+    .lg\:mr-24 {
+        margin-right: 6rem;
+    }
+
+    .lg\:mb-24 {
+        margin-bottom: 6rem;
+    }
+
+    .lg\:ml-24 {
+        margin-left: 6rem;
+    }
+
   .lg\:mt-auto {
     margin-top: auto;
   }
@@ -15042,6 +15273,10 @@ a {
     margin: -2rem;
   }
 
+    .lg\:-m-24 {
+        margin: -6rem;
+    }
+
   .lg\:-m-px {
     margin: -1px;
   }
@@ -15115,6 +15350,16 @@ a {
     margin-left: -2rem;
     margin-right: -2rem;
   }
+
+    .lg\:-my-24 {
+        margin-top: -6rem;
+        margin-bottom: -6rem;
+    }
+
+    .lg\:-mx-24 {
+        margin-left: -6rem;
+        margin-right: -6rem;
+    }
 
   .lg\:-my-px {
     margin-top: -1px;
@@ -15237,6 +15482,22 @@ a {
   .lg\:-ml-8 {
     margin-left: -2rem;
   }
+
+    .lg\:-mt-24 {
+        margin-top: -6rem;
+    }
+
+    .lg\:-mr-24 {
+        margin-right: -6rem;
+    }
+
+    .lg\:-mb-24 {
+        margin-bottom: -6rem;
+    }
+
+    .lg\:-ml-24 {
+        margin-left: -6rem;
+    }
 
   .lg\:-mt-px {
     margin-top: -1px;
@@ -18613,6 +18874,10 @@ a {
     height: 16rem;
   }
 
+    .xl\:h-112 {
+        height: 28rem;
+    }
+
   .xl\:h-auto {
     height: auto;
   }
@@ -18672,6 +18937,10 @@ a {
   .xl\:m-8 {
     margin: 2rem;
   }
+
+    .xl\:m-24 {
+        margin: 6rem;
+    }
 
   .xl\:m-auto {
     margin: auto;
@@ -18750,6 +19019,16 @@ a {
     margin-left: 2rem;
     margin-right: 2rem;
   }
+
+    .xl\:my-24 {
+        margin-top: 6rem;
+        margin-bottom: 6rem;
+    }
+
+    .xl\:mx-24 {
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
 
   .xl\:my-auto {
     margin-top: auto;
@@ -18883,6 +19162,22 @@ a {
     margin-left: 2rem;
   }
 
+    .xl\:mt-24 {
+        margin-top: 6rem;
+    }
+
+    .xl\:mr-24 {
+        margin-right: 6rem;
+    }
+
+    .xl\:mb-24 {
+        margin-bottom: 6rem;
+    }
+
+    .xl\:ml-24 {
+        margin-left: 6rem;
+    }
+
   .xl\:mt-auto {
     margin-top: auto;
   }
@@ -19011,6 +19306,10 @@ a {
     margin: -2rem;
   }
 
+    .xl\:-m-24 {
+        margin: -6rem;
+    }
+
   .xl\:-m-px {
     margin: -1px;
   }
@@ -19084,6 +19383,16 @@ a {
     margin-left: -2rem;
     margin-right: -2rem;
   }
+
+    .xl\:-my-24 {
+        margin-top: -6rem;
+        margin-bottom: -6rem;
+    }
+
+    .xl\:-mx-24 {
+        margin-left: -6rem;
+        margin-right: -6rem;
+    }
 
   .xl\:-my-px {
     margin-top: -1px;
@@ -19206,6 +19515,22 @@ a {
   .xl\:-ml-8 {
     margin-left: -2rem;
   }
+
+    .xl\:-mt-24 {
+        margin-top: -6rem;
+    }
+
+    .xl\:-mr-24 {
+        margin-right: -6rem;
+    }
+
+    .xl\:-mb-24 {
+        margin-bottom: -6rem;
+    }
+
+    .xl\:-ml-24 {
+        margin-left: -6rem;
+    }
 
   .xl\:-mt-px {
     margin-top: -1px;
