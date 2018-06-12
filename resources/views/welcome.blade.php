@@ -200,15 +200,221 @@
             </div>
         </div>
 
-        <div class="w-1/2">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi blanditiis corporis culpa cumque dolore
-            eligendi enim eum fugiat, laboriosam nobis numquam optio porro quia saepe similique sunt ullam veniam
-            voluptatem.
+        <div class="w-full lg:w-1/2 bg-white mb-4">
+
+            <div class="p-3 text-lg font-bold border-b border-solid border-grey-light">
+                <a href="#"
+                   class="text-black mr-6">Tweets</a>
+                <a href="#"
+                   class="mr-6">Tweets &amp; Replies</a>
+                <a href="#">Media</a>
+            </div>
+
+            <div class="flex border-b border-solid border-grey-light">
+                <div class="w-1/8 text-right pl-3 pt-3">
+                    <div><i class="fa fa-thumb-tack text-teal mr-2"></i></div>
+                    <div><a href="#"><img src="{{ asset('/img/twitter/avatar_tailwind.jpg') }}"
+                                          alt="avatar"
+                                          class="rounded-full h-12 w-12 mr-2"></a></div>
+                </div>
+                <div class="w-7/8 p-3 pl-0">
+                    <div class="text-xs text-grey-dark">Pinned Tweet</div>
+                    <div class="flex justify-between">
+                        <div>
+                            <span class="font-bold"><a href="#"
+                                                       class="text-black">Tailwind CSS</a></span>
+                            <span class="text-grey-dark">@tailwindcss</span>
+                            <span class="text-grey-dark">&middot;</span>
+                            <span class="text-grey-dark">15 Dec 2017</span>
+                        </div>
+                        <div>
+                            <a href="#"
+                               class="text-grey-dark hover:text-teal"><i class="fa fa-chevron-down"></i></a>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="mb-4">
+                            <p class="mb-6">🎉 Tailwind CSS v0.4.0 is out!</p>
+                            <p class="mb-6">Makes `apply` more useful when using !important utilities, and includes an
+                                improved default color palette:</p>
+                            <p class="mb-4"><a href="#">github.com/tailwindcss/ta...</a></p>
+                            <p><a href="#"><img src="{{ asset('/img/twitter/tweet1.jpg') }}"
+                                                alt="tweet image"
+                                                class="border border-solid border-grey-light rounded-sm"></a></p>
+                        </div>
+                    </div>
+
+                    <div class="pb-2">
+                        <span class="mr-8"><a href="#"
+                                              class="text-grey-dark hover:no-underline hover:text-blue-light"><i class="fa fa-comment fa-lg mr-2"></i> 9</a></span>
+                        <span class="mr-8"><a href="#"
+                                              class="text-grey-dark hover:no-underline hover:text-green"><i class="fa fa-retweet fa-lg mr-2"></i> 29</a></span>
+                        <span class="mr-8"><a href="#"
+                                              class="text-grey-dark hover:no-underline hover:text-red"><i class="fa fa-heart fa-lg mr-2"></i> 135</a></span>
+                        <span class="mr-8"><a href="#"
+                                              class="text-grey-dark hover:no-underline hover:text-teal"><i class="fa fa-envelope fa-lg mr-2"></i></a></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex border-b border-solid border-grey-light">
+
+                <div class="w-1/8 text-right pl-3 pt-3">
+                    <div><i class="fa fa-retweet text-grey-dark mr-2"></i></div>
+                    <div><a href="#"><img src="{{ asset('/img/twitter/avatar_adam.jpg') }}"
+                                          alt="avatar"
+                                          class="rounded-full h-12 w-12 mr-2"></a></div>
+                </div>
+
+                <div class="w-7/8 p-3 pl-0">
+                    <div class="text-xs text-grey-dark">Tailwind CSS Retweeted</div>
+                    <div class="flex justify-between">
+                        <div>
+                            <span class="font-bold"><a href="#"
+                                                       class="text-black">Adam Wathan</a></span>
+                            <span class="text-grey-dark">@adamwathan</span>
+                            <span class="text-grey-dark">&middot;</span>
+                            <span class="text-grey-dark">7 Dec 2017</span>
+                        </div>
+                        <div>
+                            <a href="#"
+                               class="text-grey-dark hover:text-teal"><i class="fa fa-chevron-down"></i></a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="mb-4">
+                            <p class="mb-6">💥 Check out this Slack clone built with <a href="#">@tailwindcss</a> using
+                                no custom CSS and just the default configuration:</p>
+                            <p class="mb-4"><a href="#">https://codepen.io/adamwathan/pen/JOQWVa...</a></p>
+                            <p class="mb-6">(based on some work <a href="#">@Killgt</a> started for <a href="#">tailwindcomponents.com</a>
+                                !)</p>
+                            <p><a href="#"><img src="{{ asset('/img/twitter/tweet2.jpg') }}"
+                                                alt="tweet image"
+                                                class="border border-solid border-grey-light rounded-sm"></a></p>
+                        </div>
+                        <div class="pb-2">
+                            <span class="mr-8"><a href="#"
+                                                  class="text-grey-dark hover:no-underline hover:text-blue-light"><i class="fa fa-comment fa-lg mr-2"></i> 19</a></span>
+                            <span class="mr-8"><a href="#"
+                                                  class="text-grey-dark hover:no-underline hover:text-green"><i class="fa fa-retweet fa-lg mr-2"></i> 56</a></span>
+                            <span class="mr-8"><a href="#"
+                                                  class="text-grey-dark hover:no-underline hover:text-red"><i class="fa fa-heart fa-lg mr-2"></i> 247</a></span>
+                            <span class="mr-8"><a href="#"
+                                                  class="text-grey-dark hover:no-underline hover:text-teal"><i class="fa fa-envelope fa-lg mr-2"></i></a></span>
+                        </div>
+
+                        <div><a href="#">Show this thread</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex border-b border-solid border-grey-light">
+
+                <div class="w-1/8 text-right pl-3 pt-3">
+                    <div><a href="#"><img src="{{ asset('/img/twitter/avatar_tailwind.jpg') }}"
+                                          alt="avatar"
+                                          class="rounded-full h-12 w-12 mr-2"></a></div>
+                </div>
+
+                <div class="w-7/8 p-3 pl-0">
+                    <div class="flex justify-between">
+                        <div>
+                            <span class="font-bold"><a href="#"
+                                                       class="text-black">Tailwind CSS</a></span>
+                            <span class="text-grey-dark">@tailwindcss</span>
+                            <span class="text-grey-dark">&middot;</span>
+                            <span class="text-grey-dark">1 Dec 2017</span>
+                        </div>
+                        <div>
+                            <a href="#"
+                               class="text-grey-dark hover:text-teal"><i class="fa fa-chevron-down"></i></a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="mb-4">
+                            <p class="mb-6">🎉 Tailwind CSS v0.3.0 is here!</p>
+                            <p class="mb-4">Enable/disable modules, focus and group-hover variants, new utilities, and
+                                more.</p>
+                            <p class="mb-4">Learn more in our upgrade guide:</p>
+                            <p class="mb-6"><a href="#">github.com/tailwind/ta...</a></p>
+                            <p><a href="#"><img src="{{ asset('/img/twitter/tweet3.jpg') }}"
+                                                alt="tweet image"
+                                                class="border border-solid border-grey-light rounded-sm"></a></p>
+                        </div>
+                        <div class="pb-2">
+                            <span class="mr-8"><a href="#"
+                                                  class="text-grey-dark hover:no-underline hover:text-blue-light"><i class="fa fa-comment fa-lg mr-2"></i> 6</a></span>
+                            <span class="mr-8"><a href="#"
+                                                  class="text-grey-dark hover:no-underline hover:text-green"><i class="fa fa-retweet fa-lg mr-2"></i> 74</a></span>
+                            <span class="mr-8"><a href="#"
+                                                  class="text-grey-dark hover:no-underline hover:text-red"><i class="fa fa-heart fa-lg mr-2"></i> 206</a></span>
+                            <span class="mr-8"><a href="#"
+                                                  class="text-grey-dark hover:no-underline hover:text-teal"><i class="fa fa-envelope fa-lg mr-2"></i></a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex border-b border-solid border-grey-light">
+
+                <div class="w-1/8 text-right pl-3 pt-3">
+                    <div><i class="fa fa-retweet text-grey-dark mr-2"></i></div>
+                    <div><a href="#"><img src="{{ asset('/img/twitter/avatar_egghead.jpg') }}"
+                                          alt="avatar"
+                                          class="rounded-full h-12 w-12 mr-2"></a></div>
+                </div>
+
+                <div class="w-7/8 p-3 pl-0">
+                    <div class="text-xs text-grey-dark">Tailwind CSS Retweeted</div>
+                    <div class="flex justify-between">
+                        <div>
+                            <span class="font-bold"><a href="#"
+                                                       class="text-black">egghead.io</a></span>
+                            <span class="text-grey-dark">@eggheadio</span>
+                            <span class="text-grey-dark">&middot;</span>
+                            <span class="text-grey-dark">29 Nov 2017</span>
+                        </div>
+                        <div>
+                            <a href="#"
+                               class="text-grey-dark hover:text-teal"><i class="fa fa-chevron-down"></i></a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="mb-4">
+                            <p class="mb-6">Create a Responsive Card Component by Composing Tailwind's Utility Classes -
+                                <a href="#">#html</a> lesson by <a href="#">@simonswiss</a></p>
+                            <div class="flex border border-solid border-grey-light rounded">
+                                <div class="w-1/4">
+                                    <img src="{{ asset('/img/twitter/tweet4.jpg') }}"
+                                         alt="image">
+                                </div>
+                                <div class="w-3/4 p-3">
+                                    <div class="font-bold mb-1">egghead Lesson: Abstract utility classes to ...</div>
+                                    <p class="mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus
+                                        voluptate tempore itaque culpa hic qui nostrum, minus harum cupiditate a
+                                        voluptatibus.
+                                    <div class="text-grey-dark">egghead.io</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pb-2">
+                            <span class="mr-8"><a href="#"
+                                                  class="text-grey-dark hover:no-underline hover:text-blue-light"><i class="fa fa-comment fa-lg mr-2"></i> 2</a></span>
+                            <span class="mr-8"><a href="#"
+                                                  class="text-grey-dark hover:no-underline hover:text-green"><i class="fa fa-retweet fa-lg mr-2"></i> 8</a></span>
+                            <span class="mr-8"><a href="#"
+                                                  class="text-grey-dark hover:no-underline hover:text-red"><i class="fa fa-heart fa-lg mr-2"></i> 24</a></span>
+                            <span class="mr-8"><a href="#"
+                                                  class="text-grey-dark hover:no-underline hover:text-teal"><i class="fa fa-envelope fa-lg mr-2"></i></a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+
         <div class="w-1/4">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi blanditiis corporis culpa cumque dolore
-            eligendi enim eum fugiat, laboriosam nobis numquam optio porro quia saepe similique sunt ullam veniam
-            voluptatem.
+
         </div>
     </div>
 </div>

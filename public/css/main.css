@@ -2679,7 +2679,7 @@ button,
 }
 
 .h-20 {
-    height: 5rem;
+  height: 5rem;
 }
 
 .h-24 {
@@ -2699,7 +2699,7 @@ button,
 }
 
 .h-112 {
-    height: 28rem;
+  height: 28rem;
 }
 
 .h-auto {
@@ -2763,7 +2763,7 @@ button,
 }
 
 .m-24 {
-    margin: 6rem;
+  margin: 6rem;
 }
 
 .m-auto {
@@ -2845,13 +2845,13 @@ button,
 }
 
 .my-24 {
-    margin-top: 6rem;
-    margin-bottom: 6rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
 }
 
 .mx-24 {
-    margin-left: 6rem;
-    margin-right: 6rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
 }
 
 .my-auto {
@@ -2987,19 +2987,19 @@ button,
 }
 
 .mt-24 {
-    margin-top: 6rem;
+  margin-top: 6rem;
 }
 
 .mr-24 {
-    margin-right: 6rem;
+  margin-right: 6rem;
 }
 
 .mb-24 {
-    margin-bottom: 6rem;
+  margin-bottom: 6rem;
 }
 
 .ml-24 {
-    margin-left: 6rem;
+  margin-left: 6rem;
 }
 
 .mt-auto {
@@ -3131,7 +3131,7 @@ button,
 }
 
 .-m-24 {
-    margin: -6rem;
+  margin: -6rem;
 }
 
 .-m-px {
@@ -3209,13 +3209,13 @@ button,
 }
 
 .-my-24 {
-    margin-top: -6rem;
-    margin-bottom: -6rem;
+  margin-top: -6rem;
+  margin-bottom: -6rem;
 }
 
 .-mx-24 {
-    margin-left: -6rem;
-    margin-right: -6rem;
+  margin-left: -6rem;
+  margin-right: -6rem;
 }
 
 .-my-px {
@@ -3341,19 +3341,19 @@ button,
 }
 
 .-mt-24 {
-    margin-top: -6rem;
+  margin-top: -6rem;
 }
 
 .-mr-24 {
-    margin-right: -6rem;
+  margin-right: -6rem;
 }
 
 .-mb-24 {
-    margin-bottom: -6rem;
+  margin-bottom: -6rem;
 }
 
 .-ml-24 {
-    margin-left: -6rem;
+  margin-left: -6rem;
 }
 
 .-mt-px {
@@ -4647,7 +4647,7 @@ button,
 }
 
 .w-20 {
-    width: 5rem;
+  width: 5rem;
 }
 
 .w-24 {
@@ -4718,6 +4718,14 @@ button,
   width: 83.33333%;
 }
 
+.w-1\/8 {
+  width: 12.5%;
+}
+
+.w-7\/8 {
+  width: 87.5%;
+}
+
 .w-full {
   width: 100%;
 }
@@ -4760,7 +4768,7 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .top-nav-item {
@@ -4775,14 +4783,14 @@ a:hover {
 }
 
 .top-nav-item:hover {
-    text-decoration: none;
+  text-decoration: none;
   color: #4dc0b5;
   border-color: #4dc0b5;
 }
 
 .hero {
-    background: url('/img/twitter/tailwind_bg.jpg');
-    background-size: cover;
+  background: url('/img/twitter/tailwind_bg.jpg');
+  background-size: cover;
 }
 
 /**
@@ -6772,9 +6780,9 @@ a:hover {
     height: 4rem;
   }
 
-    .sm\:h-20 {
-        height: 5rem;
-    }
+  .sm\:h-20 {
+    height: 5rem;
+  }
 
   .sm\:h-24 {
     height: 6rem;
@@ -6792,9 +6800,9 @@ a:hover {
     height: 16rem;
   }
 
-    .sm\:h-112 {
-        height: 28rem;
-    }
+  .sm\:h-112 {
+    height: 28rem;
+  }
 
   .sm\:h-auto {
     height: auto;
@@ -6856,9 +6864,9 @@ a:hover {
     margin: 2rem;
   }
 
-    .sm\:m-24 {
-        margin: 6rem;
-    }
+  .sm\:m-24 {
+    margin: 6rem;
+  }
 
   .sm\:m-auto {
     margin: auto;
@@ -6938,15 +6946,15 @@ a:hover {
     margin-right: 2rem;
   }
 
-    .sm\:my-24 {
-        margin-top: 6rem;
-        margin-bottom: 6rem;
-    }
+  .sm\:my-24 {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
 
-    .sm\:mx-24 {
-        margin-left: 6rem;
-        margin-right: 6rem;
-    }
+  .sm\:mx-24 {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
 
   .sm\:my-auto {
     margin-top: auto;
@@ -7080,21 +7088,21 @@ a:hover {
     margin-left: 2rem;
   }
 
-    .sm\:mt-24 {
-        margin-top: 6rem;
-    }
+  .sm\:mt-24 {
+    margin-top: 6rem;
+  }
 
-    .sm\:mr-24 {
-        margin-right: 6rem;
-    }
+  .sm\:mr-24 {
+    margin-right: 6rem;
+  }
 
-    .sm\:mb-24 {
-        margin-bottom: 6rem;
-    }
+  .sm\:mb-24 {
+    margin-bottom: 6rem;
+  }
 
-    .sm\:ml-24 {
-        margin-left: 6rem;
-    }
+  .sm\:ml-24 {
+    margin-left: 6rem;
+  }
 
   .sm\:mt-auto {
     margin-top: auto;
@@ -7224,9 +7232,9 @@ a:hover {
     margin: -2rem;
   }
 
-    .sm\:-m-24 {
-        margin: -6rem;
-    }
+  .sm\:-m-24 {
+    margin: -6rem;
+  }
 
   .sm\:-m-px {
     margin: -1px;
@@ -7302,15 +7310,15 @@ a:hover {
     margin-right: -2rem;
   }
 
-    .sm\:-my-24 {
-        margin-top: -6rem;
-        margin-bottom: -6rem;
-    }
+  .sm\:-my-24 {
+    margin-top: -6rem;
+    margin-bottom: -6rem;
+  }
 
-    .sm\:-mx-24 {
-        margin-left: -6rem;
-        margin-right: -6rem;
-    }
+  .sm\:-mx-24 {
+    margin-left: -6rem;
+    margin-right: -6rem;
+  }
 
   .sm\:-my-px {
     margin-top: -1px;
@@ -7434,21 +7442,21 @@ a:hover {
     margin-left: -2rem;
   }
 
-    .sm\:-mt-24 {
-        margin-top: -6rem;
-    }
+  .sm\:-mt-24 {
+    margin-top: -6rem;
+  }
 
-    .sm\:-mr-24 {
-        margin-right: -6rem;
-    }
+  .sm\:-mr-24 {
+    margin-right: -6rem;
+  }
 
-    .sm\:-mb-24 {
-        margin-bottom: -6rem;
-    }
+  .sm\:-mb-24 {
+    margin-bottom: -6rem;
+  }
 
-    .sm\:-ml-24 {
-        margin-left: -6rem;
-    }
+  .sm\:-ml-24 {
+    margin-left: -6rem;
+  }
 
   .sm\:-mt-px {
     margin-top: -1px;
@@ -8732,9 +8740,9 @@ a:hover {
     width: 4rem;
   }
 
-    .sm\:w-20 {
-        width: 5rem;
-    }
+  .sm\:w-20 {
+    width: 5rem;
+  }
 
   .sm\:w-24 {
     width: 6rem;
@@ -8802,6 +8810,14 @@ a:hover {
 
   .sm\:w-5\/6 {
     width: 83.33333%;
+  }
+
+  .sm\:w-1\/8 {
+    width: 12.5%;
+  }
+
+  .sm\:w-7\/8 {
+    width: 87.5%;
   }
 
   .sm\:w-full {
@@ -10813,9 +10829,9 @@ a:hover {
     height: 4rem;
   }
 
-    .md\:h-20 {
-        height: 5rem;
-    }
+  .md\:h-20 {
+    height: 5rem;
+  }
 
   .md\:h-24 {
     height: 6rem;
@@ -10833,9 +10849,9 @@ a:hover {
     height: 16rem;
   }
 
-    .md\:h-112 {
-        height: 28rem;
-    }
+  .md\:h-112 {
+    height: 28rem;
+  }
 
   .md\:h-auto {
     height: auto;
@@ -10897,9 +10913,9 @@ a:hover {
     margin: 2rem;
   }
 
-    .md\:m-24 {
-        margin: 6rem;
-    }
+  .md\:m-24 {
+    margin: 6rem;
+  }
 
   .md\:m-auto {
     margin: auto;
@@ -10979,15 +10995,15 @@ a:hover {
     margin-right: 2rem;
   }
 
-    .md\:my-24 {
-        margin-top: 6rem;
-        margin-bottom: 6rem;
-    }
+  .md\:my-24 {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
 
-    .md\:mx-24 {
-        margin-left: 6rem;
-        margin-right: 6rem;
-    }
+  .md\:mx-24 {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
 
   .md\:my-auto {
     margin-top: auto;
@@ -11121,21 +11137,21 @@ a:hover {
     margin-left: 2rem;
   }
 
-    .md\:mt-24 {
-        margin-top: 6rem;
-    }
+  .md\:mt-24 {
+    margin-top: 6rem;
+  }
 
-    .md\:mr-24 {
-        margin-right: 6rem;
-    }
+  .md\:mr-24 {
+    margin-right: 6rem;
+  }
 
-    .md\:mb-24 {
-        margin-bottom: 6rem;
-    }
+  .md\:mb-24 {
+    margin-bottom: 6rem;
+  }
 
-    .md\:ml-24 {
-        margin-left: 6rem;
-    }
+  .md\:ml-24 {
+    margin-left: 6rem;
+  }
 
   .md\:mt-auto {
     margin-top: auto;
@@ -11265,9 +11281,9 @@ a:hover {
     margin: -2rem;
   }
 
-    .md\:-m-24 {
-        margin: -6rem;
-    }
+  .md\:-m-24 {
+    margin: -6rem;
+  }
 
   .md\:-m-px {
     margin: -1px;
@@ -11343,15 +11359,15 @@ a:hover {
     margin-right: -2rem;
   }
 
-    .md\:-my-24 {
-        margin-top: -6rem;
-        margin-bottom: -6rem;
-    }
+  .md\:-my-24 {
+    margin-top: -6rem;
+    margin-bottom: -6rem;
+  }
 
-    .md\:-mx-24 {
-        margin-left: -6rem;
-        margin-right: -6rem;
-    }
+  .md\:-mx-24 {
+    margin-left: -6rem;
+    margin-right: -6rem;
+  }
 
   .md\:-my-px {
     margin-top: -1px;
@@ -11475,21 +11491,21 @@ a:hover {
     margin-left: -2rem;
   }
 
-    .md\:-mt-24 {
-        margin-top: -6rem;
-    }
+  .md\:-mt-24 {
+    margin-top: -6rem;
+  }
 
-    .md\:-mr-24 {
-        margin-right: -6rem;
-    }
+  .md\:-mr-24 {
+    margin-right: -6rem;
+  }
 
-    .md\:-mb-24 {
-        margin-bottom: -6rem;
-    }
+  .md\:-mb-24 {
+    margin-bottom: -6rem;
+  }
 
-    .md\:-ml-24 {
-        margin-left: -6rem;
-    }
+  .md\:-ml-24 {
+    margin-left: -6rem;
+  }
 
   .md\:-mt-px {
     margin-top: -1px;
@@ -12773,9 +12789,9 @@ a:hover {
     width: 4rem;
   }
 
-    .md\:w-20 {
-        width: 5rem;
-    }
+  .md\:w-20 {
+    width: 5rem;
+  }
 
   .md\:w-24 {
     width: 6rem;
@@ -12843,6 +12859,14 @@ a:hover {
 
   .md\:w-5\/6 {
     width: 83.33333%;
+  }
+
+  .md\:w-1\/8 {
+    width: 12.5%;
+  }
+
+  .md\:w-7\/8 {
+    width: 87.5%;
   }
 
   .md\:w-full {
@@ -14854,9 +14878,9 @@ a:hover {
     height: 4rem;
   }
 
-    .lg\:h-20 {
-        height: 5rem;
-    }
+  .lg\:h-20 {
+    height: 5rem;
+  }
 
   .lg\:h-24 {
     height: 6rem;
@@ -14874,9 +14898,9 @@ a:hover {
     height: 16rem;
   }
 
-    .lg\:h-112 {
-        height: 28rem;
-    }
+  .lg\:h-112 {
+    height: 28rem;
+  }
 
   .lg\:h-auto {
     height: auto;
@@ -14938,9 +14962,9 @@ a:hover {
     margin: 2rem;
   }
 
-    .lg\:m-24 {
-        margin: 6rem;
-    }
+  .lg\:m-24 {
+    margin: 6rem;
+  }
 
   .lg\:m-auto {
     margin: auto;
@@ -15020,15 +15044,15 @@ a:hover {
     margin-right: 2rem;
   }
 
-    .lg\:my-24 {
-        margin-top: 6rem;
-        margin-bottom: 6rem;
-    }
+  .lg\:my-24 {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
 
-    .lg\:mx-24 {
-        margin-left: 6rem;
-        margin-right: 6rem;
-    }
+  .lg\:mx-24 {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
 
   .lg\:my-auto {
     margin-top: auto;
@@ -15162,21 +15186,21 @@ a:hover {
     margin-left: 2rem;
   }
 
-    .lg\:mt-24 {
-        margin-top: 6rem;
-    }
+  .lg\:mt-24 {
+    margin-top: 6rem;
+  }
 
-    .lg\:mr-24 {
-        margin-right: 6rem;
-    }
+  .lg\:mr-24 {
+    margin-right: 6rem;
+  }
 
-    .lg\:mb-24 {
-        margin-bottom: 6rem;
-    }
+  .lg\:mb-24 {
+    margin-bottom: 6rem;
+  }
 
-    .lg\:ml-24 {
-        margin-left: 6rem;
-    }
+  .lg\:ml-24 {
+    margin-left: 6rem;
+  }
 
   .lg\:mt-auto {
     margin-top: auto;
@@ -15306,9 +15330,9 @@ a:hover {
     margin: -2rem;
   }
 
-    .lg\:-m-24 {
-        margin: -6rem;
-    }
+  .lg\:-m-24 {
+    margin: -6rem;
+  }
 
   .lg\:-m-px {
     margin: -1px;
@@ -15384,15 +15408,15 @@ a:hover {
     margin-right: -2rem;
   }
 
-    .lg\:-my-24 {
-        margin-top: -6rem;
-        margin-bottom: -6rem;
-    }
+  .lg\:-my-24 {
+    margin-top: -6rem;
+    margin-bottom: -6rem;
+  }
 
-    .lg\:-mx-24 {
-        margin-left: -6rem;
-        margin-right: -6rem;
-    }
+  .lg\:-mx-24 {
+    margin-left: -6rem;
+    margin-right: -6rem;
+  }
 
   .lg\:-my-px {
     margin-top: -1px;
@@ -15516,21 +15540,21 @@ a:hover {
     margin-left: -2rem;
   }
 
-    .lg\:-mt-24 {
-        margin-top: -6rem;
-    }
+  .lg\:-mt-24 {
+    margin-top: -6rem;
+  }
 
-    .lg\:-mr-24 {
-        margin-right: -6rem;
-    }
+  .lg\:-mr-24 {
+    margin-right: -6rem;
+  }
 
-    .lg\:-mb-24 {
-        margin-bottom: -6rem;
-    }
+  .lg\:-mb-24 {
+    margin-bottom: -6rem;
+  }
 
-    .lg\:-ml-24 {
-        margin-left: -6rem;
-    }
+  .lg\:-ml-24 {
+    margin-left: -6rem;
+  }
 
   .lg\:-mt-px {
     margin-top: -1px;
@@ -16814,9 +16838,9 @@ a:hover {
     width: 4rem;
   }
 
-    .lg\:w-20 {
-        width: 5rem;
-    }
+  .lg\:w-20 {
+    width: 5rem;
+  }
 
   .lg\:w-24 {
     width: 6rem;
@@ -16884,6 +16908,14 @@ a:hover {
 
   .lg\:w-5\/6 {
     width: 83.33333%;
+  }
+
+  .lg\:w-1\/8 {
+    width: 12.5%;
+  }
+
+  .lg\:w-7\/8 {
+    width: 87.5%;
   }
 
   .lg\:w-full {
@@ -18895,9 +18927,9 @@ a:hover {
     height: 4rem;
   }
 
-    .xl\:h-20 {
-        height: 5rem;
-    }
+  .xl\:h-20 {
+    height: 5rem;
+  }
 
   .xl\:h-24 {
     height: 6rem;
@@ -18915,9 +18947,9 @@ a:hover {
     height: 16rem;
   }
 
-    .xl\:h-112 {
-        height: 28rem;
-    }
+  .xl\:h-112 {
+    height: 28rem;
+  }
 
   .xl\:h-auto {
     height: auto;
@@ -18979,9 +19011,9 @@ a:hover {
     margin: 2rem;
   }
 
-    .xl\:m-24 {
-        margin: 6rem;
-    }
+  .xl\:m-24 {
+    margin: 6rem;
+  }
 
   .xl\:m-auto {
     margin: auto;
@@ -19061,15 +19093,15 @@ a:hover {
     margin-right: 2rem;
   }
 
-    .xl\:my-24 {
-        margin-top: 6rem;
-        margin-bottom: 6rem;
-    }
+  .xl\:my-24 {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
 
-    .xl\:mx-24 {
-        margin-left: 6rem;
-        margin-right: 6rem;
-    }
+  .xl\:mx-24 {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
 
   .xl\:my-auto {
     margin-top: auto;
@@ -19203,21 +19235,21 @@ a:hover {
     margin-left: 2rem;
   }
 
-    .xl\:mt-24 {
-        margin-top: 6rem;
-    }
+  .xl\:mt-24 {
+    margin-top: 6rem;
+  }
 
-    .xl\:mr-24 {
-        margin-right: 6rem;
-    }
+  .xl\:mr-24 {
+    margin-right: 6rem;
+  }
 
-    .xl\:mb-24 {
-        margin-bottom: 6rem;
-    }
+  .xl\:mb-24 {
+    margin-bottom: 6rem;
+  }
 
-    .xl\:ml-24 {
-        margin-left: 6rem;
-    }
+  .xl\:ml-24 {
+    margin-left: 6rem;
+  }
 
   .xl\:mt-auto {
     margin-top: auto;
@@ -19347,9 +19379,9 @@ a:hover {
     margin: -2rem;
   }
 
-    .xl\:-m-24 {
-        margin: -6rem;
-    }
+  .xl\:-m-24 {
+    margin: -6rem;
+  }
 
   .xl\:-m-px {
     margin: -1px;
@@ -19425,15 +19457,15 @@ a:hover {
     margin-right: -2rem;
   }
 
-    .xl\:-my-24 {
-        margin-top: -6rem;
-        margin-bottom: -6rem;
-    }
+  .xl\:-my-24 {
+    margin-top: -6rem;
+    margin-bottom: -6rem;
+  }
 
-    .xl\:-mx-24 {
-        margin-left: -6rem;
-        margin-right: -6rem;
-    }
+  .xl\:-mx-24 {
+    margin-left: -6rem;
+    margin-right: -6rem;
+  }
 
   .xl\:-my-px {
     margin-top: -1px;
@@ -19557,21 +19589,21 @@ a:hover {
     margin-left: -2rem;
   }
 
-    .xl\:-mt-24 {
-        margin-top: -6rem;
-    }
+  .xl\:-mt-24 {
+    margin-top: -6rem;
+  }
 
-    .xl\:-mr-24 {
-        margin-right: -6rem;
-    }
+  .xl\:-mr-24 {
+    margin-right: -6rem;
+  }
 
-    .xl\:-mb-24 {
-        margin-bottom: -6rem;
-    }
+  .xl\:-mb-24 {
+    margin-bottom: -6rem;
+  }
 
-    .xl\:-ml-24 {
-        margin-left: -6rem;
-    }
+  .xl\:-ml-24 {
+    margin-left: -6rem;
+  }
 
   .xl\:-mt-px {
     margin-top: -1px;
@@ -20855,9 +20887,9 @@ a:hover {
     width: 4rem;
   }
 
-    .xl\:w-20 {
-        width: 5rem;
-    }
+  .xl\:w-20 {
+    width: 5rem;
+  }
 
   .xl\:w-24 {
     width: 6rem;
@@ -20925,6 +20957,14 @@ a:hover {
 
   .xl\:w-5\/6 {
     width: 83.33333%;
+  }
+
+  .xl\:w-1\/8 {
+    width: 12.5%;
+  }
+
+  .xl\:w-7\/8 {
+    width: 87.5%;
   }
 
   .xl\:w-full {
